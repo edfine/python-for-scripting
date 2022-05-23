@@ -63,7 +63,7 @@ if use_live_data:
     request = Request(
         url,
         headers={
-            'User-Agent': 'TebsLabPythonExercise/0.0.1' # setting the user agent decreases throttling by Reddit
+            'User-Agent': 'EdFinePythonExercise/0.0.1' # setting the user agent decreases throttling by Reddit
         }
     )
 

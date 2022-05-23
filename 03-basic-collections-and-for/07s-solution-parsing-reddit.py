@@ -9,10 +9,11 @@ use_live_data = True
 if use_live_data:
     # Fetching the live data from reddit.
     url = "http://www.reddit.com/r/aww.json"
+    # setting the user agent below decreases throttling by Reddit
     request = Request(
         url,
         headers={
-            'User-Agent': 'TebsLabPythonExercise/0.0.1' # setting the user agent decreases throttling by Reddit
+            'User-Agent': 'EdFinePythonExercise/0.0.1' 
         }
     )
 
