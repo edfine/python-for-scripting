@@ -28,3 +28,11 @@ y = [3, 4, 5, 8, 10, 1]
 
 # What will the following code print?
 print(intersection(x, y))
+
+# rewrite intersection
+x_s = set(x)
+y_s = set(y)
+print(x_s.intersection(y_s))
+
+# rewrite contains
+print(5 in x)
